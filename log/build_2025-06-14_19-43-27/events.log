@@ -1,0 +1,183 @@
+[0.000000] (-) TimerEvent: {}
+[0.000399] (ign_ros2_demo) JobQueued: {'identifier': 'ign_ros2_demo', 'dependencies': OrderedDict()}
+[0.000541] (py_hello_word) JobQueued: {'identifier': 'py_hello_word', 'dependencies': OrderedDict()}
+[0.000630] (two_wheeled_robot) JobQueued: {'identifier': 'two_wheeled_robot', 'dependencies': OrderedDict()}
+[0.000704] (ign_ros2_demo) JobStarted: {'identifier': 'ign_ros2_demo'}
+[0.030721] (py_hello_word) JobStarted: {'identifier': 'py_hello_word'}
+[0.052710] (two_wheeled_robot) JobStarted: {'identifier': 'two_wheeled_robot'}
+[0.097108] (-) TimerEvent: {}
+[0.197736] (-) TimerEvent: {}
+[0.298387] (-) TimerEvent: {}
+[0.398977] (-) TimerEvent: {}
+[0.499577] (-) TimerEvent: {}
+[0.600194] (-) TimerEvent: {}
+[0.700797] (-) TimerEvent: {}
+[0.801436] (-) TimerEvent: {}
+[0.902069] (-) TimerEvent: {}
+[1.002733] (-) TimerEvent: {}
+[1.103396] (-) TimerEvent: {}
+[1.204145] (-) TimerEvent: {}
+[1.304938] (-) TimerEvent: {}
+[1.405594] (-) TimerEvent: {}
+[1.506240] (-) TimerEvent: {}
+[1.606880] (-) TimerEvent: {}
+[1.707528] (-) TimerEvent: {}
+[1.808197] (-) TimerEvent: {}
+[1.908845] (-) TimerEvent: {}
+[2.009476] (-) TimerEvent: {}
+[2.110131] (-) TimerEvent: {}
+[2.210780] (-) TimerEvent: {}
+[2.311428] (-) TimerEvent: {}
+[2.412162] (-) TimerEvent: {}
+[2.513000] (-) TimerEvent: {}
+[2.613872] (-) TimerEvent: {}
+[2.714586] (-) TimerEvent: {}
+[2.815210] (-) TimerEvent: {}
+[2.915989] (-) TimerEvent: {}
+[3.018125] (-) TimerEvent: {}
+[3.119200] (-) TimerEvent: {}
+[3.220760] (-) TimerEvent: {}
+[3.322906] (-) TimerEvent: {}
+[3.424259] (-) TimerEvent: {}
+[3.525664] (-) TimerEvent: {}
+[3.627001] (-) TimerEvent: {}
+[3.728184] (-) TimerEvent: {}
+[3.829479] (-) TimerEvent: {}
+[3.930560] (-) TimerEvent: {}
+[4.031651] (-) TimerEvent: {}
+[4.132819] (-) TimerEvent: {}
+[4.233865] (-) TimerEvent: {}
+[4.334755] (-) TimerEvent: {}
+[4.436064] (-) TimerEvent: {}
+[4.538735] (-) TimerEvent: {}
+[4.641060] (-) TimerEvent: {}
+[4.742881] (-) TimerEvent: {}
+[4.844745] (-) TimerEvent: {}
+[4.946681] (-) TimerEvent: {}
+[5.048666] (-) TimerEvent: {}
+[5.156193] (-) TimerEvent: {}
+[5.260188] (-) TimerEvent: {}
+[5.364185] (-) TimerEvent: {}
+[5.468179] (-) TimerEvent: {}
+[5.576209] (-) TimerEvent: {}
+[5.684186] (-) TimerEvent: {}
+[5.788187] (-) TimerEvent: {}
+[5.892183] (-) TimerEvent: {}
+[5.996190] (-) TimerEvent: {}
+[6.104189] (-) TimerEvent: {}
+[6.208194] (-) TimerEvent: {}
+[6.309879] (-) TimerEvent: {}
+[6.411101] (-) TimerEvent: {}
+[6.514068] (-) TimerEvent: {}
+[6.616133] (-) TimerEvent: {}
+[6.717818] (-) TimerEvent: {}
+[6.819107] (-) TimerEvent: {}
+[6.920788] (-) TimerEvent: {}
+[7.022451] (-) TimerEvent: {}
+[7.123375] (-) TimerEvent: {}
+[7.225152] (-) TimerEvent: {}
+[7.327550] (-) TimerEvent: {}
+[7.432206] (-) TimerEvent: {}
+[7.534361] (-) TimerEvent: {}
+[7.636252] (-) TimerEvent: {}
+[7.738482] (-) TimerEvent: {}
+[7.840158] (-) TimerEvent: {}
+[7.942022] (-) TimerEvent: {}
+[7.999316] (py_hello_word) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_hello_word', 'build', '--build-base', '/root/ros2_ws/build/py_hello_word/build', 'install', '--record', '/root/ros2_ws/build/py_hello_word/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/ros2_ws/src/py_hello_word', 'env': {'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/home/destroyer', 'ROS_PYTHON_VERSION': '3', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/root/ros2_ws/install', 'SUDO_UID': '1000', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CLBM72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/su', 'AMENT_PREFIX_PATH': '/root/ros2_ws/install/two_wheeled_robot:/root/ros2_ws/install/py_hello_word:/root/ros2_ws/install/ign_ros2_demo:/opt/ros/humble', 'SHELL': '/bin/bash', 'SUDO_USER': 'destroyer', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/root/ros2_ws/build/py_hello_word', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/root/ros2_ws/build/py_hello_word/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/py_hello_word/lib/python3.10/site-packages:/root/ros2_ws/install/two_wheeled_robot/lib/python3.10/site-packages:/root/ros2_ws/install/py_hello_word/lib/python3.10/site-packages:/root/ros2_ws/install/ign_ros2_demo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[8.042238] (-) TimerEvent: {}
+[8.143245] (-) TimerEvent: {}
+[8.239335] (two_wheeled_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/two_wheeled_robot', 'build', '--build-base', '/root/ros2_ws/build/two_wheeled_robot/build', 'install', '--record', '/root/ros2_ws/build/two_wheeled_robot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/ros2_ws/src/two_wheeled_robot', 'env': {'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/home/destroyer', 'ROS_PYTHON_VERSION': '3', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/root/ros2_ws/install', 'SUDO_UID': '1000', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CLBM72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/su', 'AMENT_PREFIX_PATH': '/root/ros2_ws/install/two_wheeled_robot:/root/ros2_ws/install/py_hello_word:/root/ros2_ws/install/ign_ros2_demo:/opt/ros/humble', 'SHELL': '/bin/bash', 'SUDO_USER': 'destroyer', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/root/ros2_ws/build/two_wheeled_robot', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/root/ros2_ws/build/two_wheeled_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/two_wheeled_robot/lib/python3.10/site-packages:/root/ros2_ws/install/two_wheeled_robot/lib/python3.10/site-packages:/root/ros2_ws/install/py_hello_word/lib/python3.10/site-packages:/root/ros2_ws/install/ign_ros2_demo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[8.248310] (-) TimerEvent: {}
+[8.354650] (-) TimerEvent: {}
+[8.363893] (ign_ros2_demo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ign_ros2_demo', 'build', '--build-base', '/root/ros2_ws/build/ign_ros2_demo/build', 'install', '--record', '/root/ros2_ws/build/ign_ros2_demo/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/ros2_ws/src/ign_ros2_demo', 'env': {'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/home/destroyer', 'ROS_PYTHON_VERSION': '3', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/root/ros2_ws/install', 'SUDO_UID': '1000', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CLBM72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/su', 'AMENT_PREFIX_PATH': '/root/ros2_ws/install/two_wheeled_robot:/root/ros2_ws/install/py_hello_word:/root/ros2_ws/install/ign_ros2_demo:/opt/ros/humble', 'SHELL': '/bin/bash', 'SUDO_USER': 'destroyer', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/root/ros2_ws/build/ign_ros2_demo', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/root/ros2_ws/build/ign_ros2_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/ign_ros2_demo/lib/python3.10/site-packages:/root/ros2_ws/install/two_wheeled_robot/lib/python3.10/site-packages:/root/ros2_ws/install/py_hello_word/lib/python3.10/site-packages:/root/ros2_ws/install/ign_ros2_demo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[8.454881] (-) TimerEvent: {}
+[8.556784] (-) TimerEvent: {}
+[8.658395] (-) TimerEvent: {}
+[8.760197] (-) TimerEvent: {}
+[8.863915] (-) TimerEvent: {}
+[8.965727] (-) TimerEvent: {}
+[9.067523] (-) TimerEvent: {}
+[9.169455] (-) TimerEvent: {}
+[9.271333] (-) TimerEvent: {}
+[9.373258] (-) TimerEvent: {}
+[9.475129] (-) TimerEvent: {}
+[9.577000] (-) TimerEvent: {}
+[9.680222] (-) TimerEvent: {}
+[9.782304] (-) TimerEvent: {}
+[9.884522] (-) TimerEvent: {}
+[9.986744] (-) TimerEvent: {}
+[10.088948] (-) TimerEvent: {}
+[10.192149] (-) TimerEvent: {}
+[10.279532] (ign_ros2_demo) StdoutLine: {'line': b'running egg_info\n'}
+[10.283120] (ign_ros2_demo) StdoutLine: {'line': b'writing ../../build/ign_ros2_demo/ign_ros2_demo.egg-info/PKG-INFO\n'}
+[10.284256] (ign_ros2_demo) StdoutLine: {'line': b'writing dependency_links to ../../build/ign_ros2_demo/ign_ros2_demo.egg-info/dependency_links.txt\n'}
+[10.285340] (ign_ros2_demo) StdoutLine: {'line': b'writing entry points to ../../build/ign_ros2_demo/ign_ros2_demo.egg-info/entry_points.txt\n'}
+[10.286592] (ign_ros2_demo) StdoutLine: {'line': b'writing requirements to ../../build/ign_ros2_demo/ign_ros2_demo.egg-info/requires.txt\n'}
+[10.287445] (ign_ros2_demo) StdoutLine: {'line': b'writing top-level names to ../../build/ign_ros2_demo/ign_ros2_demo.egg-info/top_level.txt\n'}
+[10.292421] (-) TimerEvent: {}
+[10.297345] (ign_ros2_demo) StdoutLine: {'line': b"reading manifest file '../../build/ign_ros2_demo/ign_ros2_demo.egg-info/SOURCES.txt'\n"}
+[10.302531] (ign_ros2_demo) StdoutLine: {'line': b"writing manifest file '../../build/ign_ros2_demo/ign_ros2_demo.egg-info/SOURCES.txt'\n"}
+[10.305166] (ign_ros2_demo) StdoutLine: {'line': b'running build\n'}
+[10.306082] (ign_ros2_demo) StdoutLine: {'line': b'running build_py\n'}
+[10.306770] (ign_ros2_demo) StdoutLine: {'line': b'running install\n'}
+[10.307799] (ign_ros2_demo) StdoutLine: {'line': b'running install_lib\n'}
+[10.318817] (ign_ros2_demo) StdoutLine: {'line': b'running install_data\n'}
+[10.334088] (ign_ros2_demo) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.335499] (ign_ros2_demo) StdoutLine: {'line': b"removing '/root/ros2_ws/install/ign_ros2_demo/lib/python3.10/site-packages/ign_ros2_demo-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.337094] (ign_ros2_demo) StdoutLine: {'line': b'Copying ../../build/ign_ros2_demo/ign_ros2_demo.egg-info to /root/ros2_ws/install/ign_ros2_demo/lib/python3.10/site-packages/ign_ros2_demo-0.0.0-py3.10.egg-info\n'}
+[10.344427] (ign_ros2_demo) StdoutLine: {'line': b'running install_scripts\n'}
+[10.392633] (-) TimerEvent: {}
+[10.458765] (ign_ros2_demo) StdoutLine: {'line': b"writing list of installed files to '/root/ros2_ws/build/ign_ros2_demo/install.log'\n"}
+[10.496781] (-) TimerEvent: {}
+[10.568075] (py_hello_word) StdoutLine: {'line': b'running egg_info\n'}
+[10.576227] (py_hello_word) StdoutLine: {'line': b'writing ../../build/py_hello_word/py_hello_word.egg-info/PKG-INFO\n'}
+[10.588701] (py_hello_word) StdoutLine: {'line': b'writing dependency_links to ../../build/py_hello_word/py_hello_word.egg-info/dependency_links.txt\n'}
+[10.589933] (py_hello_word) StdoutLine: {'line': b'writing entry points to ../../build/py_hello_word/py_hello_word.egg-info/entry_points.txt\n'}
+[10.591147] (py_hello_word) StdoutLine: {'line': b'writing requirements to ../../build/py_hello_word/py_hello_word.egg-info/requires.txt\n'}
+[10.592252] (py_hello_word) StdoutLine: {'line': b'writing top-level names to ../../build/py_hello_word/py_hello_word.egg-info/top_level.txt\n'}
+[10.597033] (-) TimerEvent: {}
+[10.600227] (py_hello_word) StdoutLine: {'line': b"reading manifest file '../../build/py_hello_word/py_hello_word.egg-info/SOURCES.txt'\n"}
+[10.610497] (py_hello_word) StdoutLine: {'line': b"writing manifest file '../../build/py_hello_word/py_hello_word.egg-info/SOURCES.txt'\n"}
+[10.612510] (py_hello_word) StdoutLine: {'line': b'running build\n'}
+[10.613621] (py_hello_word) StdoutLine: {'line': b'running build_py\n'}
+[10.615226] (py_hello_word) StdoutLine: {'line': b'running install\n'}
+[10.619019] (py_hello_word) StdoutLine: {'line': b'running install_lib\n'}
+[10.645316] (py_hello_word) StdoutLine: {'line': b'running install_data\n'}
+[10.647568] (py_hello_word) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.672581] (ign_ros2_demo) CommandEnded: {'returncode': 0}
+[10.683267] (py_hello_word) StdoutLine: {'line': b"removing '/root/ros2_ws/install/py_hello_word/lib/python3.10/site-packages/py_hello_word-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.684631] (py_hello_word) StdoutLine: {'line': b'Copying ../../build/py_hello_word/py_hello_word.egg-info to /root/ros2_ws/install/py_hello_word/lib/python3.10/site-packages/py_hello_word-0.0.0-py3.10.egg-info\n'}
+[10.685667] (py_hello_word) StdoutLine: {'line': b'running install_scripts\n'}
+[10.697396] (-) TimerEvent: {}
+[10.800224] (-) TimerEvent: {}
+[10.857394] (ign_ros2_demo) JobEnded: {'identifier': 'ign_ros2_demo', 'rc': 0}
+[10.895752] (py_hello_word) StdoutLine: {'line': b"writing list of installed files to '/root/ros2_ws/build/py_hello_word/install.log'\n"}
+[10.900402] (-) TimerEvent: {}
+[10.925121] (two_wheeled_robot) StdoutLine: {'line': b'running egg_info\n'}
+[10.932901] (two_wheeled_robot) StdoutLine: {'line': b'writing ../../build/two_wheeled_robot/two_wheeled_robot.egg-info/PKG-INFO\n'}
+[10.934550] (two_wheeled_robot) StdoutLine: {'line': b'writing dependency_links to ../../build/two_wheeled_robot/two_wheeled_robot.egg-info/dependency_links.txt\n'}
+[10.939047] (two_wheeled_robot) StdoutLine: {'line': b'writing entry points to ../../build/two_wheeled_robot/two_wheeled_robot.egg-info/entry_points.txt\n'}
+[10.940258] (two_wheeled_robot) StdoutLine: {'line': b'writing requirements to ../../build/two_wheeled_robot/two_wheeled_robot.egg-info/requires.txt\n'}
+[10.941260] (two_wheeled_robot) StdoutLine: {'line': b'writing top-level names to ../../build/two_wheeled_robot/two_wheeled_robot.egg-info/top_level.txt\n'}
+[10.956699] (two_wheeled_robot) StdoutLine: {'line': b"reading manifest file '../../build/two_wheeled_robot/two_wheeled_robot.egg-info/SOURCES.txt'\n"}
+[10.967413] (two_wheeled_robot) StdoutLine: {'line': b"writing manifest file '../../build/two_wheeled_robot/two_wheeled_robot.egg-info/SOURCES.txt'\n"}
+[10.969417] (two_wheeled_robot) StdoutLine: {'line': b'running build\n'}
+[10.970809] (two_wheeled_robot) StdoutLine: {'line': b'running build_py\n'}
+[10.972851] (two_wheeled_robot) StdoutLine: {'line': b'running install\n'}
+[10.975223] (two_wheeled_robot) StdoutLine: {'line': b'running install_lib\n'}
+[10.992326] (two_wheeled_robot) StdoutLine: {'line': b'running install_data\n'}
+[10.994291] (two_wheeled_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.001802] (-) TimerEvent: {}
+[11.012052] (two_wheeled_robot) StdoutLine: {'line': b"removing '/root/ros2_ws/install/two_wheeled_robot/lib/python3.10/site-packages/two_wheeled_robot-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[11.014554] (two_wheeled_robot) StdoutLine: {'line': b'Copying ../../build/two_wheeled_robot/two_wheeled_robot.egg-info to /root/ros2_ws/install/two_wheeled_robot/lib/python3.10/site-packages/two_wheeled_robot-0.0.1-py3.10.egg-info\n'}
+[11.023662] (two_wheeled_robot) StdoutLine: {'line': b'running install_scripts\n'}
+[11.069695] (py_hello_word) CommandEnded: {'returncode': 0}
+[11.102038] (-) TimerEvent: {}
+[11.114007] (py_hello_word) JobEnded: {'identifier': 'py_hello_word', 'rc': 0}
+[11.166058] (two_wheeled_robot) StdoutLine: {'line': b'Installing balance_controller script to /root/ros2_ws/install/two_wheeled_robot/lib/two_wheeled_robot\n'}
+[11.167860] (two_wheeled_robot) StdoutLine: {'line': b"writing list of installed files to '/root/ros2_ws/build/two_wheeled_robot/install.log'\n"}
+[11.202356] (-) TimerEvent: {}
+[11.299935] (two_wheeled_robot) CommandEnded: {'returncode': 0}
+[11.302329] (-) TimerEvent: {}
+[11.348937] (two_wheeled_robot) JobEnded: {'identifier': 'two_wheeled_robot', 'rc': 0}
+[11.354064] (-) EventReactorShutdown: {}

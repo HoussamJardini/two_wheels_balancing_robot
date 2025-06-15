@@ -1,0 +1,228 @@
+[0.622s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.622s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f722ad965c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f722ad96050>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f722ad96050>>, mixin_verb=('build',))
+[1.541s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.541s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.541s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.542s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/ros2_ws'
+[1.543s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.543s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.545s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.545s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.605s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.605s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.605s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.607s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.608s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.608s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.608s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.608s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.608s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/ign_ros2_demo) by extensions ['ignore', 'ignore_ament_install']
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/ign_ros2_demo) by extension 'ignore'
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/ign_ros2_demo) by extension 'ignore_ament_install'
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/ign_ros2_demo) by extensions ['colcon_pkg']
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/ign_ros2_demo) by extension 'colcon_pkg'
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/ign_ros2_demo) by extensions ['colcon_meta']
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/ign_ros2_demo) by extension 'colcon_meta'
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/ign_ros2_demo) by extensions ['ros']
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/ign_ros2_demo) by extension 'ros'
+[1.621s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ign_ros2_demo' with type 'ros.ament_python' and name 'ign_ros2_demo'
+[1.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_hello_word) by extensions ['ignore', 'ignore_ament_install']
+[1.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_hello_word) by extension 'ignore'
+[1.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_hello_word) by extension 'ignore_ament_install'
+[1.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_hello_word) by extensions ['colcon_pkg']
+[1.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_hello_word) by extension 'colcon_pkg'
+[1.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_hello_word) by extensions ['colcon_meta']
+[1.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_hello_word) by extension 'colcon_meta'
+[1.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_hello_word) by extensions ['ros']
+[1.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_hello_word) by extension 'ros'
+[1.627s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_hello_word' with type 'ros.ament_python' and name 'py_hello_word'
+[1.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extensions ['ignore', 'ignore_ament_install']
+[1.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extension 'ignore'
+[1.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extension 'ignore_ament_install'
+[1.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extensions ['colcon_pkg']
+[1.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extension 'colcon_pkg'
+[1.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extensions ['colcon_meta']
+[1.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extension 'colcon_meta'
+[1.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extensions ['ros']
+[1.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extension 'ros'
+[1.634s] DEBUG:colcon.colcon_core.package_identification:Package 'src/two_wheeled_robot' with type 'ros.ament_python' and name 'two_wheeled_robot'
+[1.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.635s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.635s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.763s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.763s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.771s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /root/ros2_ws/install
+[1.779s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 359 installed packages in /opt/ros/humble
+[1.786s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.012s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_demo' build argument 'cmake_args' from command line to 'None'
+[2.012s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_demo' build argument 'cmake_target' from command line to 'None'
+[2.012s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.012s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[2.013s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_demo' build argument 'cmake_clean_first' from command line to 'False'
+[2.013s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_demo' build argument 'cmake_force_configure' from command line to 'False'
+[2.013s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_demo' build argument 'ament_cmake_args' from command line to 'None'
+[2.013s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[2.013s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.013s] DEBUG:colcon.colcon_core.verb:Building package 'ign_ros2_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_ws/build/ign_ros2_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_ws/install/ign_ros2_demo', 'merge_install': False, 'path': '/root/ros2_ws/src/ign_ros2_demo', 'symlink_install': False, 'test_result_base': None}
+[2.015s] Level 5:colcon.colcon_core.verb:set package 'py_hello_word' build argument 'cmake_args' from command line to 'None'
+[2.015s] Level 5:colcon.colcon_core.verb:set package 'py_hello_word' build argument 'cmake_target' from command line to 'None'
+[2.015s] Level 5:colcon.colcon_core.verb:set package 'py_hello_word' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.015s] Level 5:colcon.colcon_core.verb:set package 'py_hello_word' build argument 'cmake_clean_cache' from command line to 'False'
+[2.015s] Level 5:colcon.colcon_core.verb:set package 'py_hello_word' build argument 'cmake_clean_first' from command line to 'False'
+[2.015s] Level 5:colcon.colcon_core.verb:set package 'py_hello_word' build argument 'cmake_force_configure' from command line to 'False'
+[2.015s] Level 5:colcon.colcon_core.verb:set package 'py_hello_word' build argument 'ament_cmake_args' from command line to 'None'
+[2.015s] Level 5:colcon.colcon_core.verb:set package 'py_hello_word' build argument 'catkin_cmake_args' from command line to 'None'
+[2.015s] Level 5:colcon.colcon_core.verb:set package 'py_hello_word' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.016s] DEBUG:colcon.colcon_core.verb:Building package 'py_hello_word' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_ws/build/py_hello_word', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_ws/install/py_hello_word', 'merge_install': False, 'path': '/root/ros2_ws/src/py_hello_word', 'symlink_install': False, 'test_result_base': None}
+[2.018s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'cmake_args' from command line to 'None'
+[2.018s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'cmake_target' from command line to 'None'
+[2.018s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.019s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[2.019s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'cmake_clean_first' from command line to 'False'
+[2.019s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'cmake_force_configure' from command line to 'False'
+[2.019s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'ament_cmake_args' from command line to 'None'
+[2.019s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[2.019s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.020s] DEBUG:colcon.colcon_core.verb:Building package 'two_wheeled_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_ws/build/two_wheeled_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_ws/install/two_wheeled_robot', 'merge_install': False, 'path': '/root/ros2_ws/src/two_wheeled_robot', 'symlink_install': False, 'test_result_base': None}
+[2.021s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.024s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.025s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros2_ws/src/ign_ros2_demo' with build type 'ament_python'
+[2.025s] Level 1:colcon.colcon_core.shell:create_environment_hook('ign_ros2_demo', 'ament_prefix_path')
+[2.038s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/ign_ros2_demo/share/ign_ros2_demo/hook/ament_prefix_path.ps1'
+[2.043s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/install/ign_ros2_demo/share/ign_ros2_demo/hook/ament_prefix_path.dsv'
+[2.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/ign_ros2_demo/share/ign_ros2_demo/hook/ament_prefix_path.sh'
+[2.052s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.052s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.073s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros2_ws/src/py_hello_word' with build type 'ament_python'
+[2.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_hello_word', 'ament_prefix_path')
+[2.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/py_hello_word/share/py_hello_word/hook/ament_prefix_path.ps1'
+[2.081s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/install/py_hello_word/share/py_hello_word/hook/ament_prefix_path.dsv'
+[2.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/py_hello_word/share/py_hello_word/hook/ament_prefix_path.sh'
+[2.085s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.085s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.103s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros2_ws/src/two_wheeled_robot' with build type 'ament_python'
+[2.104s] Level 1:colcon.colcon_core.shell:create_environment_hook('two_wheeled_robot', 'ament_prefix_path')
+[2.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/hook/ament_prefix_path.ps1'
+[2.110s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/hook/ament_prefix_path.dsv'
+[2.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/hook/ament_prefix_path.sh'
+[2.116s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.116s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.540s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros2_ws/src/ign_ros2_demo'
+[3.542s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.542s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.156s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros2_ws/src/py_hello_word'
+[5.158s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.159s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.033s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros2_ws/src/two_wheeled_robot'
+[7.034s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.035s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/src/two_wheeled_robot': PYTHONPATH=/root/ros2_ws/build/two_wheeled_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/two_wheeled_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/two_wheeled_robot build --build-base /root/ros2_ws/build/two_wheeled_robot/build install --record /root/ros2_ws/build/two_wheeled_robot/install.log --single-version-externally-managed install_data
+[10.615s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/src/ign_ros2_demo': PYTHONPATH=/root/ros2_ws/build/ign_ros2_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/ign_ros2_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ign_ros2_demo build --build-base /root/ros2_ws/build/ign_ros2_demo/build install --record /root/ros2_ws/build/ign_ros2_demo/install.log --single-version-externally-managed install_data
+[10.733s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/src/py_hello_word': PYTHONPATH=/root/ros2_ws/build/py_hello_word/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/py_hello_word/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_hello_word build --build-base /root/ros2_ws/build/py_hello_word/build install --record /root/ros2_ws/build/py_hello_word/install.log --single-version-externally-managed install_data
+[13.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/src/ign_ros2_demo' returned '0': PYTHONPATH=/root/ros2_ws/build/ign_ros2_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/ign_ros2_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ign_ros2_demo build --build-base /root/ros2_ws/build/ign_ros2_demo/build install --record /root/ros2_ws/build/ign_ros2_demo/install.log --single-version-externally-managed install_data
+[13.359s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/ign_ros2_demo' for CMake module files
+[13.364s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/ign_ros2_demo' for CMake config files
+[13.371s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/ign_ros2_demo/lib'
+[13.373s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/ign_ros2_demo/bin'
+[13.374s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/ign_ros2_demo/lib/pkgconfig/ign_ros2_demo.pc'
+[13.377s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/ign_ros2_demo/lib/python3.10/site-packages'
+[13.378s] Level 1:colcon.colcon_core.shell:create_environment_hook('ign_ros2_demo', 'pythonpath')
+[13.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/ign_ros2_demo/share/ign_ros2_demo/hook/pythonpath.ps1'
+[13.384s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/install/ign_ros2_demo/share/ign_ros2_demo/hook/pythonpath.dsv'
+[13.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/ign_ros2_demo/share/ign_ros2_demo/hook/pythonpath.sh'
+[13.394s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/ign_ros2_demo/bin'
+[13.395s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ign_ros2_demo)
+[13.398s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/ign_ros2_demo/share/ign_ros2_demo/package.ps1'
+[13.408s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_ws/install/ign_ros2_demo/share/ign_ros2_demo/package.dsv'
+[13.416s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/ign_ros2_demo/share/ign_ros2_demo/package.sh'
+[13.421s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/ign_ros2_demo/share/ign_ros2_demo/package.bash'
+[13.428s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/ign_ros2_demo/share/ign_ros2_demo/package.zsh'
+[13.433s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_ws/install/ign_ros2_demo/share/colcon-core/packages/ign_ros2_demo)
+[13.443s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/two_wheeled_robot' for CMake module files
+[13.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/src/two_wheeled_robot' returned '0': PYTHONPATH=/root/ros2_ws/build/two_wheeled_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/two_wheeled_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/two_wheeled_robot build --build-base /root/ros2_ws/build/two_wheeled_robot/build install --record /root/ros2_ws/build/two_wheeled_robot/install.log --single-version-externally-managed install_data
+[13.451s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/two_wheeled_robot' for CMake config files
+[13.455s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/two_wheeled_robot/lib'
+[13.456s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/two_wheeled_robot/bin'
+[13.457s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/two_wheeled_robot/lib/pkgconfig/two_wheeled_robot.pc'
+[13.459s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/two_wheeled_robot/lib/python3.10/site-packages'
+[13.460s] Level 1:colcon.colcon_core.shell:create_environment_hook('two_wheeled_robot', 'pythonpath')
+[13.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/hook/pythonpath.ps1'
+[13.465s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/hook/pythonpath.dsv'
+[13.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/hook/pythonpath.sh'
+[13.472s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/two_wheeled_robot/bin'
+[13.472s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(two_wheeled_robot)
+[13.474s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.ps1'
+[13.477s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.dsv'
+[13.480s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.sh'
+[13.483s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.bash'
+[13.485s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.zsh'
+[13.487s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_ws/install/two_wheeled_robot/share/colcon-core/packages/two_wheeled_robot)
+[13.490s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/py_hello_word' for CMake module files
+[13.495s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/py_hello_word' for CMake config files
+[13.497s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/src/py_hello_word' returned '0': PYTHONPATH=/root/ros2_ws/build/py_hello_word/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/py_hello_word/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_hello_word build --build-base /root/ros2_ws/build/py_hello_word/build install --record /root/ros2_ws/build/py_hello_word/install.log --single-version-externally-managed install_data
+[13.501s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/py_hello_word/lib'
+[13.501s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/py_hello_word/bin'
+[13.502s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/py_hello_word/lib/pkgconfig/py_hello_word.pc'
+[13.503s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/py_hello_word/lib/python3.10/site-packages'
+[13.503s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_hello_word', 'pythonpath')
+[13.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/py_hello_word/share/py_hello_word/hook/pythonpath.ps1'
+[13.506s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/install/py_hello_word/share/py_hello_word/hook/pythonpath.dsv'
+[13.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/py_hello_word/share/py_hello_word/hook/pythonpath.sh'
+[13.513s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/py_hello_word/bin'
+[13.513s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_hello_word)
+[13.515s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/py_hello_word/share/py_hello_word/package.ps1'
+[13.519s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_ws/install/py_hello_word/share/py_hello_word/package.dsv'
+[13.522s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/py_hello_word/share/py_hello_word/package.sh'
+[13.524s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/py_hello_word/share/py_hello_word/package.bash'
+[13.527s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/py_hello_word/share/py_hello_word/package.zsh'
+[13.529s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_ws/install/py_hello_word/share/colcon-core/packages/py_hello_word)
+[13.530s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.532s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.532s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.532s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.564s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.566s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.566s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.576s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[13.579s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.583s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_ws/install/local_setup.ps1'
+[13.590s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_ws/install/_local_setup_util_ps1.py'
+[13.602s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_ws/install/setup.ps1'
+[13.610s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_ws/install/local_setup.sh'
+[13.613s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_ws/install/_local_setup_util_sh.py'
+[13.615s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_ws/install/setup.sh'
+[13.621s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_ws/install/local_setup.bash'
+[13.623s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_ws/install/setup.bash'
+[13.630s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_ws/install/local_setup.zsh'
+[13.632s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_ws/install/setup.zsh'

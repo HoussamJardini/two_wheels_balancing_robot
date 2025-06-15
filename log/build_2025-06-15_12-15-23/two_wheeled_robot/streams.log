@@ -1,0 +1,28 @@
+[6.765s] Invoking command in '/root/ros2_ws/src/two_wheeled_robot': PYTHONPATH=/root/ros2_ws/build/two_wheeled_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/two_wheeled_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/two_wheeled_robot build --build-base /root/ros2_ws/build/two_wheeled_robot/build install --record /root/ros2_ws/build/two_wheeled_robot/install.log --single-version-externally-managed install_data
+[8.629s] running egg_info
+[8.633s] writing ../../build/two_wheeled_robot/two_wheeled_robot.egg-info/PKG-INFO
+[8.634s] writing dependency_links to ../../build/two_wheeled_robot/two_wheeled_robot.egg-info/dependency_links.txt
+[8.635s] writing entry points to ../../build/two_wheeled_robot/two_wheeled_robot.egg-info/entry_points.txt
+[8.636s] writing requirements to ../../build/two_wheeled_robot/two_wheeled_robot.egg-info/requires.txt
+[8.637s] writing top-level names to ../../build/two_wheeled_robot/two_wheeled_robot.egg-info/top_level.txt
+[8.648s] reading manifest file '../../build/two_wheeled_robot/two_wheeled_robot.egg-info/SOURCES.txt'
+[8.653s] writing manifest file '../../build/two_wheeled_robot/two_wheeled_robot.egg-info/SOURCES.txt'
+[8.654s] running build
+[8.654s] running build_py
+[8.655s] copying two_wheeled_robot/keyboard_control.py -> /root/ros2_ws/build/two_wheeled_robot/build/lib/two_wheeled_robot
+[8.657s] copying two_wheeled_robot/balance_controller.py -> /root/ros2_ws/build/two_wheeled_robot/build/lib/two_wheeled_robot
+[8.659s] running install
+[8.661s] running install_lib
+[8.670s] copying /root/ros2_ws/build/two_wheeled_robot/build/lib/two_wheeled_robot/keyboard_control.py -> /root/ros2_ws/install/two_wheeled_robot/lib/python3.10/site-packages/two_wheeled_robot
+[8.670s] copying /root/ros2_ws/build/two_wheeled_robot/build/lib/two_wheeled_robot/balance_controller.py -> /root/ros2_ws/install/two_wheeled_robot/lib/python3.10/site-packages/two_wheeled_robot
+[8.673s] byte-compiling /root/ros2_ws/install/two_wheeled_robot/lib/python3.10/site-packages/two_wheeled_robot/keyboard_control.py to keyboard_control.cpython-310.pyc
+[8.680s] byte-compiling /root/ros2_ws/install/two_wheeled_robot/lib/python3.10/site-packages/two_wheeled_robot/balance_controller.py to balance_controller.cpython-310.pyc
+[8.687s] running install_data
+[8.688s] running install_egg_info
+[8.702s] removing '/root/ros2_ws/install/two_wheeled_robot/lib/python3.10/site-packages/two_wheeled_robot-0.0.1-py3.10.egg-info' (and everything under it)
+[8.703s] Copying ../../build/two_wheeled_robot/two_wheeled_robot.egg-info to /root/ros2_ws/install/two_wheeled_robot/lib/python3.10/site-packages/two_wheeled_robot-0.0.1-py3.10.egg-info
+[8.710s] running install_scripts
+[8.816s] Installing balance_controller script to /root/ros2_ws/install/two_wheeled_robot/lib/two_wheeled_robot
+[8.817s] Installing keyboard_control script to /root/ros2_ws/install/two_wheeled_robot/lib/two_wheeled_robot
+[8.819s] writing list of installed files to '/root/ros2_ws/build/two_wheeled_robot/install.log'
+[8.952s] Invoked command in '/root/ros2_ws/src/two_wheeled_robot' returned '0': PYTHONPATH=/root/ros2_ws/build/two_wheeled_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/two_wheeled_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/two_wheeled_robot build --build-base /root/ros2_ws/build/two_wheeled_robot/build install --record /root/ros2_ws/build/two_wheeled_robot/install.log --single-version-externally-managed install_data

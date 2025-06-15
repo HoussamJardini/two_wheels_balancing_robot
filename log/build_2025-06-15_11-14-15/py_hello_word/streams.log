@@ -1,0 +1,20 @@
+[6.770s] Invoking command in '/root/ros2_ws/src/py_hello_word': PYTHONPATH=/root/ros2_ws/build/py_hello_word/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/py_hello_word/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_hello_word build --build-base /root/ros2_ws/build/py_hello_word/build install --record /root/ros2_ws/build/py_hello_word/install.log --single-version-externally-managed install_data
+[8.606s] running egg_info
+[8.610s] writing ../../build/py_hello_word/py_hello_word.egg-info/PKG-INFO
+[8.611s] writing dependency_links to ../../build/py_hello_word/py_hello_word.egg-info/dependency_links.txt
+[8.611s] writing entry points to ../../build/py_hello_word/py_hello_word.egg-info/entry_points.txt
+[8.612s] writing requirements to ../../build/py_hello_word/py_hello_word.egg-info/requires.txt
+[8.613s] writing top-level names to ../../build/py_hello_word/py_hello_word.egg-info/top_level.txt
+[8.622s] reading manifest file '../../build/py_hello_word/py_hello_word.egg-info/SOURCES.txt'
+[8.626s] writing manifest file '../../build/py_hello_word/py_hello_word.egg-info/SOURCES.txt'
+[8.626s] running build
+[8.627s] running build_py
+[8.627s] running install
+[8.629s] running install_lib
+[8.637s] running install_data
+[8.637s] running install_egg_info
+[8.645s] removing '/root/ros2_ws/install/py_hello_word/lib/python3.10/site-packages/py_hello_word-0.0.0-py3.10.egg-info' (and everything under it)
+[8.646s] Copying ../../build/py_hello_word/py_hello_word.egg-info to /root/ros2_ws/install/py_hello_word/lib/python3.10/site-packages/py_hello_word-0.0.0-py3.10.egg-info
+[8.650s] running install_scripts
+[8.736s] writing list of installed files to '/root/ros2_ws/build/py_hello_word/install.log'
+[8.847s] Invoked command in '/root/ros2_ws/src/py_hello_word' returned '0': PYTHONPATH=/root/ros2_ws/build/py_hello_word/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/py_hello_word/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_hello_word build --build-base /root/ros2_ws/build/py_hello_word/build install --record /root/ros2_ws/build/py_hello_word/install.log --single-version-externally-managed install_data

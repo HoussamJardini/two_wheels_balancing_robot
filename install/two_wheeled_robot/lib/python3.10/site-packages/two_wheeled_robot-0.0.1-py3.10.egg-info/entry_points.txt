@@ -1,0 +1,5 @@
+[console_scripts]
+balance_controller = two_wheeled_robot.balance_controller:main
+keyboard_control = two_wheeled_robot.keyboard_control:main
+obstacle_avoidance = two_wheeled_robot.obstacle_avoidance:main
+

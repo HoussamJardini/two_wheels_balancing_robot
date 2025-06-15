@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/py_hello_word/py_hello_word.egg-info
+writing ../../build/py_hello_word/py_hello_word.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_hello_word/py_hello_word.egg-info/dependency_links.txt
+writing entry points to ../../build/py_hello_word/py_hello_word.egg-info/entry_points.txt
+writing requirements to ../../build/py_hello_word/py_hello_word.egg-info/requires.txt
+writing top-level names to ../../build/py_hello_word/py_hello_word.egg-info/top_level.txt
+writing manifest file '../../build/py_hello_word/py_hello_word.egg-info/SOURCES.txt'
+reading manifest file '../../build/py_hello_word/py_hello_word.egg-info/SOURCES.txt'
+writing manifest file '../../build/py_hello_word/py_hello_word.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_ws/build/py_hello_word/build
+creating /root/ros2_ws/build/py_hello_word/build/lib
+creating /root/ros2_ws/build/py_hello_word/build/lib/py_hello_word
+copying py_hello_word/__init__.py -> /root/ros2_ws/build/py_hello_word/build/lib/py_hello_word
+running install
+running install_lib
+creating /root/ros2_ws/install/py_hello_word/lib/python3.10/site-packages/py_hello_word
+copying /root/ros2_ws/build/py_hello_word/build/lib/py_hello_word/__init__.py -> /root/ros2_ws/install/py_hello_word/lib/python3.10/site-packages/py_hello_word
+byte-compiling /root/ros2_ws/install/py_hello_word/lib/python3.10/site-packages/py_hello_word/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /root/ros2_ws/install/py_hello_word/share/ament_index
+creating /root/ros2_ws/install/py_hello_word/share/ament_index/resource_index
+creating /root/ros2_ws/install/py_hello_word/share/ament_index/resource_index/packages
+copying resource/py_hello_word -> /root/ros2_ws/install/py_hello_word/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_ws/install/py_hello_word/share/py_hello_word
+running install_egg_info
+Copying ../../build/py_hello_word/py_hello_word.egg-info to /root/ros2_ws/install/py_hello_word/lib/python3.10/site-packages/py_hello_word-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/root/ros2_ws/build/py_hello_word/install.log'

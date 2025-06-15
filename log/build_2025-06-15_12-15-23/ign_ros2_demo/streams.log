@@ -1,0 +1,20 @@
+[7.340s] Invoking command in '/root/ros2_ws/src/ign_ros2_demo': PYTHONPATH=/root/ros2_ws/build/ign_ros2_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/ign_ros2_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ign_ros2_demo build --build-base /root/ros2_ws/build/ign_ros2_demo/build install --record /root/ros2_ws/build/ign_ros2_demo/install.log --single-version-externally-managed install_data
+[9.601s] running egg_info
+[9.605s] writing ../../build/ign_ros2_demo/ign_ros2_demo.egg-info/PKG-INFO
+[9.606s] writing dependency_links to ../../build/ign_ros2_demo/ign_ros2_demo.egg-info/dependency_links.txt
+[9.607s] writing entry points to ../../build/ign_ros2_demo/ign_ros2_demo.egg-info/entry_points.txt
+[9.609s] writing requirements to ../../build/ign_ros2_demo/ign_ros2_demo.egg-info/requires.txt
+[9.609s] writing top-level names to ../../build/ign_ros2_demo/ign_ros2_demo.egg-info/top_level.txt
+[9.619s] reading manifest file '../../build/ign_ros2_demo/ign_ros2_demo.egg-info/SOURCES.txt'
+[9.624s] writing manifest file '../../build/ign_ros2_demo/ign_ros2_demo.egg-info/SOURCES.txt'
+[9.625s] running build
+[9.626s] running build_py
+[9.627s] running install
+[9.628s] running install_lib
+[9.641s] running install_data
+[9.642s] running install_egg_info
+[9.655s] removing '/root/ros2_ws/install/ign_ros2_demo/lib/python3.10/site-packages/ign_ros2_demo-0.0.0-py3.10.egg-info' (and everything under it)
+[9.657s] Copying ../../build/ign_ros2_demo/ign_ros2_demo.egg-info to /root/ros2_ws/install/ign_ros2_demo/lib/python3.10/site-packages/ign_ros2_demo-0.0.0-py3.10.egg-info
+[9.664s] running install_scripts
+[9.819s] writing list of installed files to '/root/ros2_ws/build/ign_ros2_demo/install.log'
+[9.956s] Invoked command in '/root/ros2_ws/src/ign_ros2_demo' returned '0': PYTHONPATH=/root/ros2_ws/build/ign_ros2_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/ign_ros2_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ign_ros2_demo build --build-base /root/ros2_ws/build/ign_ros2_demo/build install --record /root/ros2_ws/build/ign_ros2_demo/install.log --single-version-externally-managed install_data

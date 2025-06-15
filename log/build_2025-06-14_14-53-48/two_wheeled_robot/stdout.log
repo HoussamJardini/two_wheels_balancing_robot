@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/two_wheeled_robot/two_wheeled_robot.egg-info
+writing ../../build/two_wheeled_robot/two_wheeled_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/two_wheeled_robot/two_wheeled_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/two_wheeled_robot/two_wheeled_robot.egg-info/entry_points.txt
+writing requirements to ../../build/two_wheeled_robot/two_wheeled_robot.egg-info/requires.txt
+writing top-level names to ../../build/two_wheeled_robot/two_wheeled_robot.egg-info/top_level.txt
+writing manifest file '../../build/two_wheeled_robot/two_wheeled_robot.egg-info/SOURCES.txt'
+reading manifest file '../../build/two_wheeled_robot/two_wheeled_robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/two_wheeled_robot/two_wheeled_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_ws/build/two_wheeled_robot/build
+creating /root/ros2_ws/build/two_wheeled_robot/build/lib
+creating /root/ros2_ws/build/two_wheeled_robot/build/lib/two_wheeled_robot
+copying two_wheeled_robot/balance_controller.py -> /root/ros2_ws/build/two_wheeled_robot/build/lib/two_wheeled_robot
+copying two_wheeled_robot/__init__.py -> /root/ros2_ws/build/two_wheeled_robot/build/lib/two_wheeled_robot
+running install
+running install_lib
+creating /root/ros2_ws/install/two_wheeled_robot/lib/python3.10/site-packages/two_wheeled_robot
+copying /root/ros2_ws/build/two_wheeled_robot/build/lib/two_wheeled_robot/balance_controller.py -> /root/ros2_ws/install/two_wheeled_robot/lib/python3.10/site-packages/two_wheeled_robot
+copying /root/ros2_ws/build/two_wheeled_robot/build/lib/two_wheeled_robot/__init__.py -> /root/ros2_ws/install/two_wheeled_robot/lib/python3.10/site-packages/two_wheeled_robot
+byte-compiling /root/ros2_ws/install/two_wheeled_robot/lib/python3.10/site-packages/two_wheeled_robot/balance_controller.py to balance_controller.cpython-310.pyc
+byte-compiling /root/ros2_ws/install/two_wheeled_robot/lib/python3.10/site-packages/two_wheeled_robot/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /root/ros2_ws/install/two_wheeled_robot/share/ament_index
+creating /root/ros2_ws/install/two_wheeled_robot/share/ament_index/resource_index
+creating /root/ros2_ws/install/two_wheeled_robot/share/ament_index/resource_index/packages
+copying resource/two_wheeled_robot -> /root/ros2_ws/install/two_wheeled_robot/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot
+creating /root/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/launch
+copying launch/launch_robot.py -> /root/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/launch
+creating /root/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/urdf
+copying urdf/robot.urdf -> /root/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/urdf
+running install_egg_info
+Copying ../../build/two_wheeled_robot/two_wheeled_robot.egg-info to /root/ros2_ws/install/two_wheeled_robot/lib/python3.10/site-packages/two_wheeled_robot-0.0.1-py3.10.egg-info
+running install_scripts
+Installing balance_controller script to /root/ros2_ws/install/two_wheeled_robot/lib/two_wheeled_robot
+writing list of installed files to '/root/ros2_ws/build/two_wheeled_robot/install.log'

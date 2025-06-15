@@ -1,0 +1,6 @@
+cd ~/ros2_ws
+rm -rf build install log
+colcon build
+source install/setup.bas
+colcon build --packages-select two_wheeled_robot --event-handlers console_direct+
+

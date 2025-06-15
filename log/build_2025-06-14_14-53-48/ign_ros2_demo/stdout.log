@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/ign_ros2_demo/ign_ros2_demo.egg-info
+writing ../../build/ign_ros2_demo/ign_ros2_demo.egg-info/PKG-INFO
+writing dependency_links to ../../build/ign_ros2_demo/ign_ros2_demo.egg-info/dependency_links.txt
+writing entry points to ../../build/ign_ros2_demo/ign_ros2_demo.egg-info/entry_points.txt
+writing requirements to ../../build/ign_ros2_demo/ign_ros2_demo.egg-info/requires.txt
+writing top-level names to ../../build/ign_ros2_demo/ign_ros2_demo.egg-info/top_level.txt
+writing manifest file '../../build/ign_ros2_demo/ign_ros2_demo.egg-info/SOURCES.txt'
+reading manifest file '../../build/ign_ros2_demo/ign_ros2_demo.egg-info/SOURCES.txt'
+writing manifest file '../../build/ign_ros2_demo/ign_ros2_demo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_ws/build/ign_ros2_demo/build
+creating /root/ros2_ws/build/ign_ros2_demo/build/lib
+creating /root/ros2_ws/build/ign_ros2_demo/build/lib/ign_ros2_demo
+copying ign_ros2_demo/__init__.py -> /root/ros2_ws/build/ign_ros2_demo/build/lib/ign_ros2_demo
+running install
+running install_lib
+creating /root/ros2_ws/install/ign_ros2_demo/lib/python3.10/site-packages/ign_ros2_demo
+copying /root/ros2_ws/build/ign_ros2_demo/build/lib/ign_ros2_demo/__init__.py -> /root/ros2_ws/install/ign_ros2_demo/lib/python3.10/site-packages/ign_ros2_demo
+byte-compiling /root/ros2_ws/install/ign_ros2_demo/lib/python3.10/site-packages/ign_ros2_demo/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /root/ros2_ws/install/ign_ros2_demo/share/ament_index
+creating /root/ros2_ws/install/ign_ros2_demo/share/ament_index/resource_index
+creating /root/ros2_ws/install/ign_ros2_demo/share/ament_index/resource_index/packages
+copying resource/ign_ros2_demo -> /root/ros2_ws/install/ign_ros2_demo/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_ws/install/ign_ros2_demo/share/ign_ros2_demo
+running install_egg_info
+Copying ../../build/ign_ros2_demo/ign_ros2_demo.egg-info to /root/ros2_ws/install/ign_ros2_demo/lib/python3.10/site-packages/ign_ros2_demo-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/root/ros2_ws/build/ign_ros2_demo/install.log'
