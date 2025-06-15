@@ -7,8 +7,8 @@ A sophisticated two-wheeled self-balancing robot implemented in ROS2 Humble with
 ## Team Information
 
 **Team Name:** Syntax Error  
-**Professor:** Dr. Khaoula Boukir  
-**Course:** masters degree in aico  
+**Professor:** Dr. Khaoula BOUKIR 
+**Course:** Masters Degree in AI&IoT  
 **Academic Year:** 2024-2025
 
 ## Key Features
